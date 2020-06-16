@@ -8,79 +8,122 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap" rel="stylesheet">
-
+    <!-- Iconos Font Awesome -->
+    <script src="https://kit.fontawesome.com/cb6c4c0d2c.js" crossorigin="anonymous"></script>
+    <!-- Estilos CSS Custom -->
     <link rel="stylesheet" href="style.css">
 
     <title>Asociacion de Juventudes INNOVADOS</title>
   </head>
   <body>
     <div class="container shadow bg-light">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+      <div class="d-flex">
+        <!-- Brand -->
+        <a class="navbar-brand flex-grow-1 p-md-3 p-2" href="index.html"><img class="logo" src="logoAJI1.svg" alt="INNOVADOS"></a>
+        <i class="icon-top fab fa-facebook-square text-dark p-md-3 p-2"></i>
+        <i class="icon-top fab fa-twitter-square text-dark p-md-3 p-2"></i>
+
+      </div>
+
+    <nav class="navbar navbar-expand-sm bg-darker navbar-dark">
         <!-- naranja: d55300ff
         azul: 0000cbfe
           verde: 00c803ff
       -->
+      <div class="navbar-nav nav-item">
+        <a class="titulo-md nav-link" href="index.html">INNOVADOS</a>
+      </div>       
         
-        <!-- Brand -->
-        <a class="navbar-brand mr-auto" href="index.html"><img src="logoAJI1.svg" alt="" width="100"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
           <!-- Links -->
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">INICIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">NOTICIAS</a>
-            </li>
-        
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                ACERCA DE NOSOSTROS
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#quienes">QUIENES SOMOS</a>
-                <a class="dropdown-item" href="#mision">MISION</a>
-                <a class="dropdown-item" href="#vision">VISION</a>
-              </div>
-            </li>
-          </ul>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NOTICIAS</a>
+              </li>
+          
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  ACERCA DE NOSOSTROS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="aboutus.html#logo">LOGO</a>
+                  <a class="dropdown-item" href="aboutus.html#quienes">QUIENES SOMOS</a>
+                  <a class="dropdown-item" href="aboutus.html#mision">MISION</a>
+                  <a class="dropdown-item" href="aboutus.html#vision">VISION</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+          
         
 
       </nav>
 
-      <div class="">
-        <div class="row ">
-          <div class="col-md-6">
-            <img class="img-fluid" src="logoAJI1.svg" alt="">
-          </div>
-          <div class="col-6 d-flex align-content-center justify-content-center flex-wrap">
-            <h1>ACERCA DE NOSOSTROS</h1>
-          </div>
-        </div>  
+      <div class="d-flex my-md-5 py-md-5 justify-content-center">
+        <h1 class="text-center titulo-md my-3 py-3"><i class="fas fa-question-circle"></i> ACERCA DE NOSOSTROS</h1>
       </div>
 
-      <nav class="d-flex justify-content-center bg-dark text-white py-2">
+      <nav class="d-flex justify-content-center bg-darker text-white py-2">
+        <h2 id="logo">LOGO</h2>
+      </nav>
+
+      <div class="d-flex justify-content-center">
+        <img class="img-fluid" src="logoAJI1.svg" width="40%" alt="">
+      </div>
+
+
+      <nav class="d-flex justify-content-center bg-darker text-white py-2">
         <h2 id="quienes">¿QUIENES SOMOS?</h2>
       </nav>
 
-      <div class="container-fluid p-4 py-5">
+      <div class="container-fluid p-5 text-justify">
         Asociación de juventudes innovados es una organización privada sin ánimo de lucro, conformado por un equipo de trabajo que busca fortalecer las diferentes instancias sociales desde iniciativas juveniles con el apoyo y acompañamiento de la comunidad en general, avanzar en la defensa, promoción y protección de los derechos humanos, ambiente, victimas, el arte, la cultura, la paz, educación y demás ejes que hacen parte del desarrollo de la integralidad de la vida, sabiendo que nuestra igualdad es que pensamos diferente y aportar así al progreso de las comunidades y los pueblos en sus dimensiones y cosmovisión del mundo.
       </div>
 
-      <nav class="d-flex justify-content-center bg-dark text-white py-2">
+      <nav class="d-flex justify-content-center bg-darker text-white py-2">
         <h2 id="mision">MISION</h2>
       </nav>
-      <div class="container-fluid p-4 py-5">
+      <div class="container-fluid p-5 text-justify">
         La asociación de juventudes innovados, dentro de sus responsabilidades sociales, juveniles, y culturales, busca incentivar el liderazgo de iniciativas desde lo juvenil constituyendo a toda la comunidad, propendiendo por el desarrollo integral en todos los ejes que son pieza fundamental del desarrollo sostenible, transformando todas las dinámicas para fortalecer la vida de las y los jóvenes y la sociedad en general, para esto es indispensable la protección de los derechos de todos las personas a quienes queremos llegar, con ánimo de  interrelacionarse en los diferentes gubernamentales, sociales, económicos, culturales y ambientales, en los que los y las jóvenes queremos demostrar nuestras capacidades.
       </div>
 
-      <nav class="d-flex justify-content-center bg-dark text-white py-2">
+      <nav class="d-flex justify-content-center bg-darker text-white py-2">
         <h2 id="vision">VISION</h2>
       </nav>
-      <div class="container-fluid p-4 py-5">
+      <div class="container-fluid p-5 text-justify">
         Nuestra meta para el 2040 es ser una organización juvenil comprometida con el cambio social y de participación colectiva de la sociedad desde la intervención de las juventudes, formar líderes que propendan por incidir en las diferentes políticas públicas de carácter social, educativo, ambiental, económico y cultural de forma colectiva, ejecutar programas de apoyo en todas las esferas sociales, buscando una comunión política de los ciudadanos desde diferentes prácticas organizativas, creando programas, espacios y aptitudes que beneficien a todos los asociados y demás personas que sean objeto de intervención por parte de innovados.
       </div>
+
+      <nav class="bg-footer">
+        <div class="d-flex justify-content-center text-white py-2">
+          <p class="h3 inline-block p-md-2 p-2">Asociación de Juventudes INNOVADOS. 2020</p>
+        </div>
+        
+        <hr>
+        <div class="d-block justify-content-center text-white py-2 ml-5">
+          <p><i class="fas fa-home"></i> Direccion: CR 23 No. 8 - 43 AP 1 - El Copey, Cesar</p>
+          <p><i class="fas fa-phone-square-alt"></i> Celular: 3043339237</p>
+          <p><i class="fas fa-envelope-square"></i> Correo: henry_jfa@hotmail.com</p>
+        </div>
+        <div class="d-flex justify-content-center text-white py-2">
+          <i class="icon icon-but-f text-white fab fa-facebook-square p-md-2 p-2"></i>
+          <i class="icon icon-but-t text-white fab fa-twitter-square p-md-2 p-2"></i>
+        </div>
+        
+
+      </nav>
 
     </div>
 

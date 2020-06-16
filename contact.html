@@ -12,6 +12,9 @@
     <script src="https://kit.fontawesome.com/cb6c4c0d2c.js" crossorigin="anonymous"></script>
     <!-- Estilos CSS Custom -->
     <link rel="stylesheet" href="style.css">
+    <!-- SDK De Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>   
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
 
     <title>Asociacion de Juventudes INNOVADOS</title>
   </head>
@@ -71,111 +74,65 @@
 
       </nav>
 
-      <div id="demo" class="carousel slide pt-md-5 pt-sm-0" data-ride="carousel">
-
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-      
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <div class="row ">
-                <div class="col-md-6">
-                  <img class="img-fluid" src="undraw_team_spirit_hrr4.svg" alt="">
-                </div>
-                <div class="col-md-6 col-sm-12">
-                  <h1 class="titulo-md">Asociacion de Juventudes INNOVADOS</h1>
-                  <p class="h2 titulo-sm">¿QUIENES SOMOS?</p>
-                  <p>Asociación de juventudes innovados es una organización privada sin ánimo de lucro, conformado por un equipo de trabajo que busca... <BR><a href="aboutus.html#quienes">Leer mas.</a></p>
-                </div>
-              </div>              
-          </div>
-          <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid" src="undraw_people_tax5.svg" alt="">
-                </div>
-                <div class="col-md-6 col-sm-12">
-                  <h1 class="titulo-md">Bootstrap Tutorial</h1>
-                  <p class="h2 titulo-sm">Bootstrap is the most popular HTML, CSS...</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, earum? Consectetur similique amet autem eveniet distinctio officia consequatur</p>
-                </div>
-              </div>
-              
-          </div>
-          <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid" src="undraw_professor_8lrt.svg" alt="">
-                </div>
-                <div class="col-md-6 col-sm-12">
-                  <h1 class="titulo-md">Bootstrap Tutorial</h1>
-                  <p class="h2 titulo-sm">Bootstrap is the most popular HTML, CSS...</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, earum? Consectetur similique amet autem eveniet distinctio officia consequatur, totam dolorem officiis ad ipsa at veniam repellat nisi quos expedita explicabo aspernatur voluptatibus cupiditate illum nihil.</p>
-                </div>
-              </div>              
-          </div>
-        </div>
-      
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      
+      <div class="d-flex my-md-5 py-md-5 justify-content-center">
+        <h1 class="text-center titulo-md my-3 py-3"><i class="far fa-address-book"></i> CONTACTO</h1>
       </div>
 
+        <nav class="d-flex col-md-12 justify-content-center bg-darker text-white py-2">
+          <h2>Datos de Contacto.</h2>
+        </nav>
+        <div class="row ">
+          <div class="offset-md-6 col-md-6">
+            <div class="d-block justify-content-center text-dark py-5 ml-5">
+              <p><i class="fas fa-home"></i> Direccion: CR 23 No. 8 - 43 AP 1 - El Copey, Cesar</p>
+              <p><i class="fas fa-phone-square-alt"></i> Celular: 3043339237</p>
+              <p><i class="fas fa-envelope-square"></i> Correo: henry_jfa@hotmail.com</p>
+              <a class="text-dark" href="#"><h3><i class="icon icon-but-f text-dark fab fa-facebook-square"></i> INNOVADOS</h3></a>
+              <a class="text-dark" href="#"><h3><i class="icon icon-but-t text-dark fab fa-twitter-square"></i> INNOVADOS</h3></a>
+              
+            </div>
+          </div>
+        </div>
+          <nav class="d-flex col-md-12 justify-content-center bg-darker text-white py-2">
+            <h2>Enviar comentarios.</h2>
+          </nav>
+        <div class="row">          
+          <div class="offset-md-6 col-md-6 col-sm-12 p-5">
+
+            <form id="formulario" class="was-validated">
+              <div class="form-group">
+                <label for="uname">Nombre:</label>
+                <input type="text" class="form-control" id="uname" placeholder="Nombre" name="uname" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Por favor llene este campo.</div>
+              </div>
+              <div class="form-group">
+                <label for="email">Correo:</label>
+                <input type="email" class="form-control" id="email" placeholder="Correo (Opcional)" name="email">
+              </div>
+              <div class="form-group">
+                <label for="comment">Comentario:</label>
+                <textarea class="form-control" rows="5" id="comment" required></textarea>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Por favor llene este campo.</div>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <div id="alert" class="alert alert-success mt-4 alert-dismissible fade show">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              Tus comentario han sido enviado correctamente.</div>
+
+          </div>
+        </div>  
+
+      
       <nav class="d-flex justify-content-center bg-darker text-white py-2">
-        <h2>ULTIMAS NOTICIAS</h2>
+        <h2>Ubicación</h2>
       </nav>
 
-      <div class="row">
-        <div class="col-md-4 p-4 m-sm-1 m-md-auto">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d490.92733794176405!2d-73.96564394615129!3d10.146579946684355!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1592251224877!5m2!1ses!2sco" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-          <div class="card" style="width:100%">
-            <img class="card-img-top" src="undraw_voice_interface_eckp.svg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">Some example text.</p>
-              <a href="#" class="btn btn-primary">See Profile</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 p-4 m-sm-1 m-md-auto">
-
-          <div class="card" style="width:100%">
-            <img class="card-img-top" src="undraw_voice_interface_eckp.svg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">Some example text.</p>
-              <a href="#" class="btn btn-primary">See Profile</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 p-4 m-sm-1 m-md-auto">
-
-          <div class="card" style="width:100%">
-            <img class="card-img-top" src="undraw_voice_interface_eckp.svg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">Some example text.</p>
-              <a href="#" class="btn btn-primary">See Profile</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
       <nav class="bg-footer">
         <div class="d-flex justify-content-center text-white py-2">
           <p class="h3 inline-block p-md-2 p-2">Asociación de Juventudes INNOVADOS. 2020</p>
@@ -202,5 +159,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="contactapp.js"></script>
+
   </body>
 </html>
