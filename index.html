@@ -16,13 +16,18 @@
     <title>Asociacion de Juventudes INNOVADOS</title>
   </head>
   <body>
+
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v7.0" nonce="zQpfh3Sd"></script>
+
     <div class="container shadow bg-light">
 
       <div class="d-flex">
         <!-- Brand -->
         <a class="navbar-brand flex-grow-1 p-md-3 p-2" href="index.html"><img class="logo" src="logoAJI1.svg" alt="INNOVADOS"></a>
-        <i class="icon-top fab fa-facebook-square text-dark p-md-3 p-2"></i>
-        <i class="icon-top fab fa-twitter-square text-dark p-md-3 p-2"></i>
+        <a href="https://www.facebook.com/INNOVADOS2/" target="_blank"><i class="icon-top fab fa-facebook-square text-dark p-md-3 p-2"></i></a>
+        <a href="http://" target="_blank"><i class="icon-top fab fa-twitter-square text-dark p-md-3 p-2"></i></a>
+        
 
       </div>
 
@@ -100,9 +105,9 @@
                   <img class="img-fluid" src="undraw_people_tax5.svg" alt="">
                 </div>
                 <div class="col-md-6 col-sm-12">
-                  <h1 class="titulo-md">Bootstrap Tutorial</h1>
-                  <p class="h2 titulo-sm">Bootstrap is the most popular HTML, CSS...</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, earum? Consectetur similique amet autem eveniet distinctio officia consequatur</p>
+                  <!--<h1 class="titulo-md">Bootstrap Tutorial</h1>-->
+                  <p class="h2 titulo-sm">Trabajo en Equipo</p>
+                  <p>El trabajo en equipo es escencial para el progreso de las metas a cumplir, ya que aunque cada quien cumple un rol diferente, el objetivo es el mismo, en este caso el liderazgo...</p>
                 </div>
               </div>
               
@@ -113,19 +118,19 @@
                   <img class="img-fluid" src="undraw_professor_8lrt.svg" alt="">
                 </div>
                 <div class="col-md-6 col-sm-12">
-                  <h1 class="titulo-md">Bootstrap Tutorial</h1>
-                  <p class="h2 titulo-sm">Bootstrap is the most popular HTML, CSS...</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, earum? Consectetur similique amet autem eveniet distinctio officia consequatur, totam dolorem officiis ad ipsa at veniam repellat nisi quos expedita explicabo aspernatur voluptatibus cupiditate illum nihil.</p>
+                  <!--<h1 class="titulo-md">Bootstrap Tutorial</h1>-->
+                  <p class="h2 titulo-sm">El Liderazgo</p>
+                  <p>El liderazgo es indispensable en este proceso,  porque permite de cierta forma participar plenamente en la sociedad, en este sentido para lograr una asimetría y engranaje en esta asociación, cada individuo parte de sus conocimientos para construir conciencia a nivel general</p>
                 </div>
               </div>              
           </div>
         </div>
       
         <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <a class="carousel-control-prev invisible" href="#demo" data-slide="prev">
           <span class="carousel-control-prev-icon"></span>
         </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
+        <a class="carousel-control-next invisible" href="#demo" data-slide="next">
           <span class="carousel-control-next-icon"></span>
         </a>
       
@@ -134,11 +139,17 @@
       <nav class="d-flex justify-content-center bg-darker text-white py-2">
         <h2>ULTIMAS NOTICIAS</h2>
       </nav>
+      
+      <div class="row justify-content-around">
+        <div class="col-md-4 p-4">
 
-      <div class="row">
-        <div class="col-md-4 p-4 m-sm-1 m-md-auto">
+          <div class="fb-page" data-href="https://www.facebook.com/Retro-SNES-104958414397477/" data-tabs="timeline" data-width="360" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Retro-SNES-104958414397477/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Retro-SNES-104958414397477/">Retro SNES</a></blockquote></div>
 
-          <div class="card" style="width:100%">
+        </div>
+
+        <div class="col-md-4 p-4">
+
+          <div class="card" style="width:90%">
             <img class="card-img-top" src="undraw_voice_interface_eckp.svg" alt="Card image">
             <div class="card-body">
               <h4 class="card-title">John Doe</h4>
@@ -149,22 +160,9 @@
 
         </div>
 
-        <div class="col-md-4 p-4 m-sm-1 m-md-auto">
+        <div class="col-md-4 p-4">
 
-          <div class="card" style="width:100%">
-            <img class="card-img-top" src="undraw_voice_interface_eckp.svg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">Some example text.</p>
-              <a href="#" class="btn btn-primary">See Profile</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 p-4 m-sm-1 m-md-auto">
-
-          <div class="card" style="width:100%">
+          <div class="card" style="width:90%">
             <img class="card-img-top" src="undraw_voice_interface_eckp.svg" alt="Card image">
             <div class="card-body">
               <h4 class="card-title">John Doe</h4>
@@ -176,6 +174,9 @@
         </div>
 
       </div>
+      
+      
+
       <nav class="bg-footer">
         <div class="d-flex justify-content-center text-white py-2">
           <p class="h3 inline-block p-md-2 p-2">Asociación de Juventudes INNOVADOS. 2020</p>
@@ -188,8 +189,9 @@
           <p><i class="fas fa-envelope-square"></i> Correo: henry_jfa@hotmail.com</p>
         </div>
         <div class="d-flex justify-content-center text-white py-2">
-          <i class="icon icon-but-f text-white fab fa-facebook-square p-md-2 p-2"></i>
-          <i class="icon icon-but-t text-white fab fa-twitter-square p-md-2 p-2"></i>
+          <a href="https://www.facebook.com/INNOVADOS2/" target="_blank"><i class="icon icon-but-f text-white fab fa-facebook-square p-md-2 p-2"></i></a>
+          <a href="http://" target="_blank"><i class="icon icon-but-t text-white fab fa-twitter-square p-md-2 p-2"></i></a>
+          
         </div>
         
 
