@@ -42,8 +42,8 @@
      id="namedview2516"
      showgrid="false"
      inkscape:zoom="1.3017574"
-     inkscape:cx="410"
-     inkscape:cy="270.40369"
+     inkscape:cx="492.31483"
+     inkscape:cy="301.13138"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -66,7 +66,7 @@
      transform="translate(-190 -87.41324)"
      fill="#f9a826"
      id="path1685"
-     style="fill:#d55300;fill-opacity:1" />
+     style="fill:#f51b01;fill-opacity:1" />
   <path
      d="M356.652,685.21208c22.56492,34.60437,16.38212,78.61668,16.38212,78.61668s-42.76779-12.09246-65.33271-46.69683-16.38212-78.61668-16.38212-78.61668S334.08711,650.60771,356.652,685.21208Z"
      transform="translate(-190 -87.41324)"
@@ -85,7 +85,7 @@
      transform="translate(-190 -87.41324)"
      fill="#f9a826"
      id="path1691"
-     style="fill:#d55300;fill-opacity:1" />
+     style="fill:#f51b01;fill-opacity:1" />
   <line
      x1="183.94478"
      y1="676.21802"
@@ -129,7 +129,7 @@
      transform="translate(-190 -87.41324)"
      fill="#f9a826"
      id="path1705"
-     style="fill:#d55300;fill-opacity:1" />
+     style="fill:#f51b01;fill-opacity:1" />
   <path
      d="M568.73666,666.63689s12.19294,18.96679,43.35267,23.0311,36.57882-6.77385,33.86928-9.48339-35.22405-14.90249-35.22405-14.90249l-18.96679-14.90248Z"
      transform="translate(-190 -87.41324)"
@@ -197,13 +197,13 @@
      transform="translate(-190 -87.41324)"
      fill="#f9a826"
      id="path1733"
-     style="fill:#d55300;fill-opacity:1" />
+     style="fill:#f51b01;fill-opacity:1" />
   <path
      d="M785.5,527.09546,796.3382,539.2884s6.77386,16.25726,6.77386,20.32157,13.54771,63.67424,14.90248,66.38378,6.77385,36.57882,0,44.70745-18.9668,13.54771-18.9668,13.54771,8.12863-28.45019-17.612-29.805l2.70954-10.83817-24.38588-81.28627Z"
      transform="translate(-190 -87.41324)"
      fill="#f9a826"
      id="path1735"
-     style="fill:#d55300;fill-opacity:1" />
+     style="fill:#f51b01;fill-opacity:1" />
   <path
      d="M598.54162,620.36961v71.361A17.15651,17.15651,0,0,0,615.444,708.88519l149.23772,2.21093a17.15651,17.15651,0,0,0,17.398-16.49525l2.745-71.36924a17.15652,17.15652,0,0,0-16.89522-17.81409l-151.98269-2.20265A17.15652,17.15652,0,0,0,598.54162,620.36961Z"
      transform="translate(-190 -87.41324)"
@@ -236,7 +236,7 @@
      id="ellipse1745"
      stroke="#f9a826"
      fill="#3f3d56"
-     style="stroke:#d55300;stroke-opacity:1" />
+     style="stroke:#f51b01;stroke-opacity:1" />
   <g
      opacity="0.8"
      id="g1777">

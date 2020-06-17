@@ -1,3 +1,9 @@
+:root {
+    --verde: #008740;
+    --naranja: #f51b01ff;
+}
+  
+
 body{
     margin: 0;
     min-height: 100vh;
@@ -5,7 +11,7 @@ body{
     /*background: linear-gradient(rgba(255, 255, 255, 1) 72%,rgba(255, 255, 255, 1) ,#d55300ff, #0000cbfe, #00c803ff);*/
     background-repeat: repeat;
     background-size: cover;
-    background-position: bottom;    
+    background-position: top;    
     background-attachment: fixed;
 }
 
@@ -14,7 +20,6 @@ body:before{
     width: 100%;
     height: 100%;
     position: absolute;
-
     
     z-index: -1;
 }
@@ -35,6 +40,7 @@ p{
     }    
     .icon-top{
         font-size: 50px !important;
+        color: var(--verde) !important;
     }
 }
 
@@ -44,7 +50,16 @@ p{
     }
     .icon-top{
         font-size: 100px !important;
+        color: var(--verde) !important;
     }
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgba(255,255,255,0.5) !important;
 }
 
 .fa-facebook-square:hover{
@@ -77,13 +92,22 @@ p{
 }
 
 .bg-darker{
-    background: linear-gradient(#424242 50%,#424242,rgba(0,0,0,0)) !important;
+    background: linear-gradient(var(--verde) 50%,var(--verde),rgba(0,0,0,0)) !important;
 }
 
 .bg-footer{
-    background-color: #424242 !important;
+    background-color: var(--verde) !important;
 }
+
+
+    
+
 
 #alert{
     visibility: hidden;
+}
+
+.card-text{
+    line-height: 18px !important;
+    font-size: 15px;
 }
