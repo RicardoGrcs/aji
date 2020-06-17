@@ -111,3 +111,11 @@ p{
     line-height: 18px !important;
     font-size: 15px;
 }
+
+.card-header{
+    background-color: var(--verde);
+}
+
+.card-footer{
+    background-color: var(--verde);
+}

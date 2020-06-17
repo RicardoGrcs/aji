@@ -16,7 +16,7 @@ const firebaseConfig = {
 
     var db = firebase.firestore();
 
-    db.collection("noticias").get().then(function(querySnapshot) {
+    db.collection("comments").get().then(function(querySnapshot) {
         querySnapshot.forEach(function(doc) {
 
             var d = new Date(doc.data().fecha);

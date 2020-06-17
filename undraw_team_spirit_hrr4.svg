@@ -40,8 +40,8 @@
      inkscape:window-height="1017"
      id="namedview2573"
      showgrid="false"
-     inkscape:zoom="0.19410871"
-     inkscape:cx="154.64854"
+     inkscape:zoom="1.0980447"
+     inkscape:cx="331.82758"
      inkscape:cy="507.1313"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -413,7 +413,7 @@
      transform="translate(-31.16 -20.14)"
      fill="#f9a826"
      id="path2128"
-     style="fill:#d55300;fill-opacity:1" />
+     style="fill:#f51b01;fill-opacity:1" />
   <path
      d="M480.05,234.93l-.42-.21a3.63,3.63,0,0,0-3.93.41l-42,34.07s-9.13,12.63-7.86,34.42l24.77,35.09s2.83-11.88,6.22-9.62c0,0,4.81,60.85,0,69.62s-6.93,41.6-6.93,41.6l16.27,1.84s1.7-22.22,5.52-30.14,5.9-35.15,5.9-35.15,3.44-39.56,2.87-56.54-5.52-53.49-5.52-53.49S476.33,245.43,480.05,234.93Z"
      transform="translate(-31.16 -20.14)"
@@ -434,7 +434,7 @@
      transform="translate(-31.16 -20.14)"
      fill="#f9a826"
      id="path2136"
-     style="fill:#d55300;fill-opacity:1" />
+     style="fill:#f51b01;fill-opacity:1" />
   <path
      d="M521.32,228.12a1,1,0,0,1,.72.16Z"
      transform="translate(-31.16 -20.14)"

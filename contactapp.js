@@ -9,15 +9,14 @@ const firebaseConfig = {
   };
 
   firebase.initializeApp(firebaseConfig);
-
-  var db = firebase.firestore();
-
+  
   const formulario = document.querySelector("#formulario");
 
   formulario.addEventListener("submit", sendComment);
 
   function sendComment(e){
     e.preventDefault();
+    var db = firebase.firestore();
     db.collection("comments").add({
         
         name: document.querySelector("#uname").value,
